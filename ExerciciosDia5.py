@@ -124,6 +124,7 @@ questao3()
 
 print("Exercício 4:")
 questao4()
+
 print("Exercício 5:")
 questao5()
 
