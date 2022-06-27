@@ -25,8 +25,8 @@ def questao2():
 
 def questao3():
     #variáveis que armazenam os valores lidos
-    valor1 = int(input("Entre com um valor: "))
-    valor2 = int(input("Entre com outro valor: "))
+    valor1 = int(input("Entre com um valor inteiro: "))
+    valor2 = int(input("Entre com outro valor inteiro: "))
 
     #variável que armazena a soma dos valores
     soma = valor1 + valor2
@@ -66,7 +66,7 @@ def questao5():
 
     #loop para receber 20 inputs
     while count <= 20:
-        X = int(input("{0}- Entre com um valor: ".format(count)))
+        X = float(input("{0}- Entre com um valor: ".format(count)))
         
         #armazena os valores pares na lista
         if X%2 == 0:
@@ -98,7 +98,7 @@ def questao6():
     while maiorQue2 == False: #enquanto não é digitado um valor maior que 2:
 
         #variavel que armazena o valor lido
-        valor = int(input("Entre com um valor maior que 2: "))
+        valor = int(input("Entre com um valor inteiro maior que 2: "))
 
         if valor <= 2: #verifica se o valor lido é maior que 2
             print("O valor deve ser maior que 2. Tente novamente.")
@@ -115,7 +115,6 @@ def questao6():
     
     #mostra na tela quais são os números impares
     print("Os valores ímpares entre {0} e 0 são: ".format(valor), impares)
-
 
 
 # 7- Crie um programa que contêm uma função que receba dois parâmetros inteiros e retorna a média dos dois valores
@@ -198,7 +197,7 @@ def questao9():
 
     print("Os valores da lista do último para o primeiro são: ")
 
-    while i >= -len(lista): #enquanto não chegamos ao primeiro eemento da lista, exibimos o elemento que corresponde ao index atual
+    while i >= -len(lista): #enquanto não chegamos ao primeiro elemento da lista, exibimos o elemento que corresponde ao index atual
         print(lista[i])
 
         #decremento do index
@@ -227,6 +226,8 @@ def questao10():
 
         if listaRecebida[i] in listaDeComparacao: #se a fruta do index atual se encontra na listaDeComparacao, mostramos essa fruta na tela
             print("A fruta {0} está na lista!".format(listaRecebida[i]))
+        else:
+            print("A fruta {0} não está na lista.".format(listaRecebida[i]))    
 
         #incremento do index    
         i += 1
@@ -275,23 +276,30 @@ def questao11():
 # 12 - Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias. Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo mês com 30 dias. Nos casos de teste nunca haverá uma situação que permite 12 meses e alguns dias, como 360, 363 ou 364. Este é apenas um exercício com objetivo de testar raciocínio matemático simples.
 
 def questao12():
+    # variável para armazenar o valor lido
     dias = int(input("Entre com sua idade em dias: "))
 
+    #divisão inteira para descobrir a quantidade de anos
     idadeAnos = dias//365
+
+    # módulo (resto) da divisao anterior para descobrir os meses e dias
     diasSobrando = dias%365
-    print(diasSobrando)
+
+    #divisão inteira para descobrir os meses
     idadeMeses = diasSobrando//30
+
+    #modulo (resto) da divisão anterior para descobrir os dias
     idadeDias = diasSobrando%30
 
     print("Sua idade é de:")
     print(idadeAnos, "ano(s)")
     print(idadeMeses, "mes(es)")
     print(idadeDias, "dia(s)")
-    print("CORRIGIR ESSE EXERCICIO!!!!!!!!!!")
+    # NOTA: Este exercício não retorna a idade EXATA,
+    # visto que estamos desconsiderando os anos bissextos e meses com mais ou menos de 30 dias.   
 
 ############# ÁREA DE EXECUÇÃO DOS EXERCÍCIOS #############
 
-'''
 print("Exercício 1:")
 questao1()
 print('\n')
@@ -335,6 +343,6 @@ print('\n')
 print("Exercício 11:")
 questao11()
 print('\n')
-'''
+
 print("Exercício 12:")
 questao12()
