@@ -37,3 +37,5 @@ Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo
 * README: [Como colocar imagens](https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec)
 
 * README: [Como centralizar textos](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
+
+* README: [Inspiração](https://github.com/alichtman/stronghold#readme)
