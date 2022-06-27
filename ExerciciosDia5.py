@@ -1,9 +1,6 @@
 # -> Cada questão foi desenvolvida dentro de uma função
 # -> O código para rodar cada uma delas se encontra no trecho final deste arquivo
 
-import datetime
-#esse import será utilizado na questão 12
-
 # 1- Construa um programa que quando executado mostra "Hello World"
 
 def questao1():
@@ -280,8 +277,6 @@ def questao11():
 def questao12():
     dias = int(input("Entre com sua idade em dias: "))
 
-    e = datetime.datetime.now()
-
     idadeAnos = dias//365
     diasSobrando = dias%365
     print(diasSobrando)
@@ -343,4 +338,3 @@ print('\n')
 '''
 print("Exercício 12:")
 questao12()
-print('\n')
