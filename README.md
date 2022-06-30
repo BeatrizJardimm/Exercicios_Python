@@ -7,8 +7,6 @@
   
 </div>
 
-<hr>
-
 * Esse repositório é composto por exercícios desenvolvidos em **Python**.
 * Os exercícios que compõem esse projeto foram desenvolvidos através da IDE **VS Code**.
 * A ferramenta **Git** foi usada para transformar o projeto em um repositório e depois armazená-lo no GitHub.
@@ -22,6 +20,7 @@ Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo
 2. Instale a IDE de sua preferência que seja compatível com a linguagem Python ([Aqui](https://blog.geekhunter.com.br/ides-e-editores-de-codigo-em-python-para-2021/) estão algumas opções).
 3. Instale a versão do [Git](https://git-scm.com/downloads) compatível com seu sistema operacional.
 4. Depois de [configurar o Git](https://www.youtube.com/watch?v=UBAX-13g8OM) em sua máquina, rode o seguinte código:
+<br>
 ```$ git clone https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass.git```
 
 Agora você tem uma cópia dos exercícios em sua máquina! :)
@@ -75,7 +74,9 @@ Para ler e conseguir manipular os arquivos em [JSON](https://www.devmedia.com.br
 ## Como contribuir
 
 Caso encontrou algum erro nos códigos ou pontos que podem ser melhorados, fique a vontade para fazer modificações na versão que você insalou em sua máquina! Para isso, crie uma nova branch e dê um nome sugestivo a ela.
+<br>
 Faça suas alterações **APENAS** dentro dessa branch.
+<br>
 Após fazer suas alterações, suba a nova versão dos códigos para seu repositório no GitHub utilizando o ```git push <nome-branch>```, e então é só [criar um *pull request*](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) na plataforma do GitHub.
 
 ## Referências
@@ -93,7 +94,8 @@ Ao longo do projeto, encontrei algumas dificuldades, então encontrei soluções
 * README: [Como criar tabelas](https://www.markdownguide.org/extended-syntax/#:~:text=for%20more%20information.-,Tables,either%20end%20of%20the%20row.)
 
 Além disso, também recebi ajuda da minha colega Amanda Bressam, o perfil dela no GitHub pode ser acessado através desse [link](https://github.com/abressam).
-Muito obrigada Amandinha :)!
+<br>
+Muito obrigada Amandinha! :)
 
 ## Considerações finais
 
@@ -105,6 +107,7 @@ Prontinho! Com base nas informações desse documento você é capaz de acessar,
 ## Autora
 
 Meu perfil no [GitHub](https://github.com/BeatrizJardimm).
+<br>
 Meu perfil no [LinkedIn](https://www.linkedin.com/in/paula-beatriz-jardim-11882521a/).
 
 <hr>
@@ -113,8 +116,4 @@ Meu perfil no [LinkedIn](https://www.linkedin.com/in/paula-beatriz-jardim-118825
 
 ![Icon Python](./midia/iconPython.png) ![Icon Git](./midia/iconGit.png)
 
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> db9c46f8acc9bf0d32f33bfc9f1674fc4cd963a8
