@@ -130,10 +130,14 @@ def questaoB():
     #variável para armazenar o valor de entrada
     simbolo = str(input("Entre com o símbolo de um dos elementos (em letras maiúsculas): "))
 
-    #variavel que armazena todos os dados da linha que apresenta o símbolo correspondente ao que foi digitado pelo usuário
-    dados = elementos[elementos["Simbolo"] == simbolo]
+    print(elementos.loc[:, "Simbolo"])
 
-    print(dados) #mostra os dados do elemento na tela
+    #variavel que armazena todos os dados da linha que apresenta o símbolo correspondente ao que foi digitado pelo usuário
+    if simbolo in list(elementos.loc[:, "Simbolo"]):
+        dados = elementos[elementos["Simbolo"] == simbolo]
+        print(dados) #mostra os dados do elemento na tela
+    else:
+        print("Este não é um símbolo válido")
 
 #C) Listar todos os dados de todos os elementos inseridos.
 
@@ -147,7 +151,7 @@ def questaoC():
 ########## ÁREA DE EXECUÇÃO DOS EXERCÍCIOS ##########
 
 print("Questão A: ")
-questaoA()
+# questaoA()
 print('\n')
 
 print("Questão B: ")
@@ -155,5 +159,5 @@ questaoB()
 print('\n')
 
 print("Questão C: ")
-questaoC()
+#questaoC()
 print('\n')
