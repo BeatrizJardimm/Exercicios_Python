@@ -20,7 +20,6 @@ Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo
 2. Instale a IDE de sua preferência que seja compatível com a linguagem Python ([Aqui](https://blog.geekhunter.com.br/ides-e-editores-de-codigo-em-python-para-2021/) estão algumas opções).
 3. Instale a versão do [Git](https://git-scm.com/downloads) compatível com seu sistema operacional.
 4. Depois de [configurar o Git](https://www.youtube.com/watch?v=UBAX-13g8OM) em sua máquina, rode o seguinte código:
-<br>
 ```$ git clone https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass.git```
 
 Agora você tem uma cópia dos exercícios em sua máquina! :)
@@ -31,7 +30,7 @@ O projeto está dividido em pastas. Cada pasta contém os arquivos correspontes 
 
 Existem 5 arquivos de exercícios desenvolvidos em Python. As baterias de exercícios foram propostas em dias diferentes e baseados em JSONs e CSVs diferentes, portanto, cada arquivo contém a resolução dos exercícios do dia em questão com base no arquivo que foi trabalhado entre eles.
 
-#### Exercícios do dia 5:
+### Exercícios do dia 5:
 
 Como todos os exercícios desse dia foram resolvidos no mesmo arquivo, desenvolvi uma função para cada enunciado e, ao final do código, chamei as funções criadas para gerar um produto visível de cada exercício.
 
@@ -51,7 +50,7 @@ Além disso, também utilizei algumas funções *built-in* do Python, são essas
 
 Note que esse arquivo pode ser rodado tanto no terminal da IDE escolhida quanto no Prompt de Comando do seu sistema operacional.
 
-#### Exercícios do dia 7:
+### Exercícios do dia 7:
 
 Os exercícios desse dia foram divididos em diferentes arquivos, cada um contém os enunciados relacionados ao seu respectivo arquivo **JSON** ou **CSV**.
 
@@ -99,7 +98,7 @@ Muito obrigada Amandinha! :)
 
 ## Considerações finais
 
-Prontinho! Com base nas informações desse documento você é capaz de acessar, modificar e compartilhar esse projeto!
+Prontinho! Com base nas informações desse documento, agora você é capaz de acessar, modificar e compartilhar esse projeto!
 <br>
 
 ![Olimpíadas The Office](./midia/gifMedalhas.gif)
