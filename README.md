@@ -1,10 +1,12 @@
-<center>
+<div align="center">
 
 ![Icon do Git](/midia/iconGit.png) ![Logo Python](/midia/iconPython.png)
 
 # Challenge da Sprint 4
 
-</center>
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass/blob/develop/LICENSE)
+  
+</div>
 
 * Esse repositório é composto por exercícios desenvolvidos em **Python**.
 * Os exercícios que compõem esse projeto foram desenvolvidos através da IDE **VS Code**.
