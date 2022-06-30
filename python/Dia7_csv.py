@@ -55,9 +55,12 @@ def questao12():
 
 def questao13():
 
-    #ao referenciar uma coluna que não existe, ela é criada automaticamente
-    # #como não é possível concatenar valores de tipos diferentes, precisamos transformar os anos, que são inteiros, em strings    
-    premiados["Filmes"] = premiados["Movie"] + '- {0}'.format(premiados["Year"])
+    #como não é possível concatenar valores de tipos diferentes, precisamos transformar os anos, que são inteiros, em strings
+    str_anos = premiados["Year"].apply(str)
+
+    #ao referenciar uma coluna que não existe, ela é criada automaticamente, e então conseguimos adicionar os dados dentro dela
+    premiados["Filmes"] = premiados["Movie"] + ' - ' + str_anos
+
 
     return premiados.head() #retorna apenas as primeiras linhas
 
@@ -105,7 +108,6 @@ print('\n')
 print("Exercício 13:")
 print(questao13())
 print('\n')
-
 
 print("Exercício 14:")
 print(questao14())
