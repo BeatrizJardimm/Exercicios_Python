@@ -11,19 +11,6 @@
 * Os exercícios que compõem esse projeto foram desenvolvidos através da IDE **VS Code**.
 * A ferramenta **Git** foi usada para transformar o projeto em um repositório e depois armazená-lo no GitHub.
 
-
-## Como criar uma cópia do projeto
-
-Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo:
-
-1. Crie um *Fork* desse projeto no seu perfil do GitHub
-2. Instale a IDE de sua preferência que seja compatível com a linguagem Python ([Aqui](https://blog.geekhunter.com.br/ides-e-editores-de-codigo-em-python-para-2021/) estão algumas opções).
-3. Instale a versão do [Git](https://git-scm.com/downloads) compatível com seu sistema operacional.
-4. Depois de [configurar o Git](https://www.youtube.com/watch?v=UBAX-13g8OM) em sua máquina, rode o seguinte código:
-```$ git clone https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass.git```
-
-Agora você tem uma cópia dos exercícios em sua máquina! :)
-
 ## Características do projeto
 
 O projeto está dividido em pastas. Cada pasta contém os arquivos correspontes a extensão que dá nome a pasta, ou seja, na pasta "json" estão os arquivos *.json*, na pasta "csv" estão os arquivos *.csv* e na pasta "python" estão os arquivos de exercícios desenvolvidos nessa linguagem. Já a pasta "midia" é composta por todas as imagens utilizadas no arquivo que você está lendo agora!
@@ -69,6 +56,21 @@ Para ler e conseguir manipular os arquivos em [JSON](https://www.devmedia.com.br
     * [Documentação](https://pandas.pydata.org/docs/)
     * [Vídeo](https://www.youtube.com/watch?v=C0aj3FjN5e0)
 
+
+## Como criar uma cópia do projeto
+
+Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo:
+
+1. Crie um *Fork* desse projeto no seu perfil do GitHub
+2. Instale a IDE de sua preferência que seja compatível com a linguagem Python ([Aqui](https://blog.geekhunter.com.br/ides-e-editores-de-codigo-em-python-para-2021/) estão algumas opções).
+3. Instale a versão do [Git](https://git-scm.com/downloads) compatível com seu sistema operacional.
+4. Depois de [configurar o Git](https://www.youtube.com/watch?v=UBAX-13g8OM) em sua máquina, rode o seguinte código:
+
+<code>
+$ git clone https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass.git
+</code>
+
+Agora você tem uma cópia dos exercícios em sua máquina! :)
 
 ## Como contribuir
 
