@@ -11,7 +11,7 @@
 * Os exercícios que compõem esse projeto foram desenvolvidos através da IDE **VS Code**.
 * A ferramenta **Git** foi usada para transformar o projeto em um repositório e depois armazená-lo no GitHub.
 
-## Características do projeto
+## <img src="./midia/pamQ.jpg" alt="Pam de The Office" width="40" height="40"> Características do projeto
 
 O projeto está dividido em pastas. Cada pasta contém os arquivos correspontes a extensão que dá nome a pasta, ou seja, na pasta "json" estão os arquivos *.json*, na pasta "csv" estão os arquivos *.csv* e na pasta "python" estão os arquivos de exercícios desenvolvidos nessa linguagem. Já a pasta "midia" é composta por todas as imagens utilizadas no arquivo que você está lendo agora!
 
@@ -57,7 +57,7 @@ Para ler e conseguir manipular os arquivos em [JSON](https://www.devmedia.com.br
     * [Vídeo](https://www.youtube.com/watch?v=C0aj3FjN5e0)
 
 
-## Como criar uma cópia do projeto
+## <img src="./midia/dwightQ.jpg" alt="Pam de The Office" width="40" height="40"> Como criar uma cópia do projeto
 
 Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo:
 
@@ -72,7 +72,7 @@ $ git clone https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass.g
 
 Agora você tem uma cópia dos exercícios em sua máquina! :)
 
-## Como contribuir
+## <img src="./midia/jim.jpg" alt="Pam de The Office" width="40" height="40"> Como contribuir
 
 Caso encontrou algum erro nos códigos ou pontos que podem ser melhorados, fique a vontade para fazer modificações na versão que você insalou em sua máquina! Para isso, crie uma nova branch e dê um nome sugestivo a ela.
 <br>
@@ -80,7 +80,7 @@ Faça suas alterações **APENAS** dentro dessa branch.
 <br>
 Após fazer suas alterações, suba a nova versão dos códigos para seu repositório no GitHub utilizando o ```git push <nome-branch>```, e então é só [criar um *pull request*](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) na plataforma do GitHub.
 
-## Referências
+## <img src="./midia/ryanQ.jpg" alt="Pam de The Office" width="40" height="40"> Referências
 
 Ao longo do projeto, encontrei algumas dificuldades, então encontrei soluções nos seguintes links:
 
@@ -105,7 +105,7 @@ Prontinho! Com base nas informações desse documento, agora você é capaz de a
 
 ![Olimpíadas The Office](./midia/gifMedalhas.gif)
 
-## Autora
+## <img src="./midia/michaelQ.jpeg" alt="Pam de The Office" width="40" height="40"> Autora
 
 Meu perfil no [GitHub](https://github.com/BeatrizJardimm).
 <br>
