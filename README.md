@@ -116,11 +116,3 @@ Com base nas informações desse documento, agora você é capaz de acessar, mod
 Meu perfil no [GitHub](https://github.com/BeatrizJardimm).
 <br>
 Meu perfil no [LinkedIn](https://www.linkedin.com/in/paula-beatriz-jardim-11882521a/).
-
-<hr>
-
-<div align="center">
-
-![Icon Python](./midia/iconPython.png) ![Icon Git](./midia/iconGit.png)
-
-</div>
