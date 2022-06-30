@@ -113,4 +113,8 @@ Meu perfil no [LinkedIn](https://www.linkedin.com/in/paula-beatriz-jardim-118825
 
 ![Icon Python](./midia/iconPython.png) ![Icon Git](./midia/iconGit.png)
 
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> db9c46f8acc9bf0d32f33bfc9f1674fc4cd963a8
