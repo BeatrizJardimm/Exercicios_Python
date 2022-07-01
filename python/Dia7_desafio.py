@@ -98,8 +98,4 @@ print('\n')
 
 print("Questão C: ")
 questaoC()
-<<<<<<< HEAD
 print('\n')
-=======
-print('\n')
->>>>>>> db9c46f8acc9bf0d32f33bfc9f1674fc4cd963a8
