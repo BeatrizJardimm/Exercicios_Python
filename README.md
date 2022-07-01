@@ -63,6 +63,7 @@ Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo
 
 1. Crie um *Fork* desse projeto no seu perfil do GitHub
 2. Instale a IDE de sua preferência que seja compatível com a linguagem Python ([Aqui](https://blog.geekhunter.com.br/ides-e-editores-de-codigo-em-python-para-2021/) estão algumas opções).
+  2.1. Eu utilizei o **VS CODE**, e a partir [desse artigo](https://asimov.academy/como-instalar-e-configurar-o-vscode/) ou [desse vídeo](https://www.youtube.com/watch?v=-RuY-rM-B4M&t=1s) você pode configurar tal IDE pra executar arquivos na linguagem Python.
 3. Instale a versão do [Git](https://git-scm.com/downloads) compatível com seu sistema operacional.
 4. Depois de [configurar o Git](https://www.youtube.com/watch?v=UBAX-13g8OM) em sua máquina, rode o seguinte código:
 
