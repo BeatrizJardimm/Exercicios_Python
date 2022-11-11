@@ -1,7 +1,8 @@
 <div align="center">
 
-![Logo da Compass](/midia/compasslogo.png)
-# Challenge da Sprint 4
+<img src="./midia/logoPython.png" alt="Logo Python" width="250" height="250">
+
+# Exercícios resolvidos em Python
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass/blob/develop/LICENSE)
   
@@ -28,12 +29,16 @@ Algumas questões foram resolvidas usando condicionais e while loops, você pode
 
 Além disso, também utilizei algumas funções *built-in* do Python, são essas:
 
+<div align="center">
+
 | Função      | Descrição   |
 | :---        |    :----:   |
 | sum([x, y, z]) | soma todos os elementos de uma lista, tuple ou outro (nesse caso x+y+z) |
 | len([x, y, z]) | retorna o comprimento do parâmetro passado (nesse caso 3) |
 | .append(x) | adiciona o parametro passado (x) à lista que foi referenciada |
 | .format(valor) | adiciona o valor do parâmetro na posição referenciada em uma string |
+
+</div>
 
 Note que esse arquivo pode ser rodado tanto no terminal da IDE escolhida quanto no Prompt de Comando do seu sistema operacional.
 
@@ -67,7 +72,8 @@ Para obter uma cópia desse projeto em sua máquina local, siga os passos abaixo
 4. Depois de [configurar o Git](https://www.youtube.com/watch?v=UBAX-13g8OM) em sua máquina, rode o seguinte código:
 
 <code>
-$ git clone https://github.com/BeatrizJardimm/RoboTron_Beatriz_Louback_Compass.git
+$ git clone https://github.com/BeatrizJardimm/Exercicios_Python.git
+
 </code>
 
 Agora você tem uma cópia dos exercícios em sua máquina! :)
